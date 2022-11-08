@@ -1,0 +1,168 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: #000000;
+}
+
+main{
+    background-color: #FFFFFF;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: #007D7B;
+    font-size: 40px;
+    margin:0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    padding: 5px 25px;
+}
+
+nav a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a:hover{
+    color: #007D7B;
+
+}
+
+input[value]{
+    font-size: 16px;
+    color: #007D7B;
+    font-weight: bold;
+}
+
+img[src="img/TK.png"]{
+    display: inline;
+    float: left;
+    width:850px;
+    height:auto;
+}
+
+section{
+    display: block;
+}
+
+section[id="about"] p{
+    clear: both;
+    display: inline;
+    width:420px;
+}
+
+section[id="about"] h2{
+    display: inline;
+    width:420px;
+    
+}
+
+input{
+    width: 850px;
+}
+
+label{
+    text-align: left;
+}
+
+input[type="submit"]{
+    width: 420px;
+    color: #FFFFFF;
+    background-color: #007D7B;
+    border-radius:5px;
+    padding: 5px 25px;
+
+}
+input,label{
+    margin-bottom: 5px;
+}
+
+form label{
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+[href="#top"] {
+    position:fixed;
+    text-align: center;
+    bottom:0px;
+    right:0px;
+    background-color: #007D7B;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+
+  [href="#top"]:hover{
+    background-color: #FFFFFF;
+    color: #007D7B;
+  }
+
+
+.upper{
+    text-transform:uppercase;
+}
+
+#about{
+    padding-top: 12.5px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    text-align: right;
+}
+
+#gallery{
+    display: inline-block;
+    text-align: left;
+    padding-left: 12.5px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+#contact{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding:0;
+    margin-top:-30px;
+    margin-bottom: 0;
+}
+
+.small{
+    width: 420px;
+    height: 281px;
+}
+
+.tall{
+    width:420px;
+    height: 630px;
+}
+
+
+#wrapper{
+    margin: 0 auto;
+    width: 1310px;
+}

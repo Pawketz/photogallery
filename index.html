@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Justin Dyer">
+    <link rel="stylesheet" href="style.css">
+    <title> TK Photography</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <header class="upper">
+            <h1 id="top">TK Photography</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#top">^<br>Top</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+
+                <img src="img/TK.png" alt="">
+                <h2 class="upper">About</h2><br>
+                <p>Hello!<br>I'm TK and I'm a photographer.<br>I love looking at life through the lens of my camera.Landscape photography is my speciality and it's taken me all over the world.</p><br><br><br>
+
+            </section>
+
+            <section id="gallery">
+
+                <h2 class="upper">Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+                <img class="small" src="img/Chile.png" alt="">
+                <img class="small" src="img/Guatemala.png" alt="">
+                <img class="small" src="img/Hawaii.png" alt="">
+                <img class="tall" src="img/Iran.png" alt="">
+                <img class="tall" src="img/Ireland.png" alt="">
+                <img class="tall" src="img/Italy.png" alt="">
+                <img class="small" src="img/Moab-Desert.png" alt="">
+                <img class="small" src="img/Rocky-Mountains.png" alt="">
+                <img class="small" src="img/Switzerland.png" alt="">
+                <img class="small" src="img/UK.png" alt="">
+                <img class="small" src="img/USA.png" alt="">
+                <img class="small" src="img/Wyoming.png" alt="">
+            </section>
+
+            <section id="contact">
+
+                <h2 class="upper">Contact</h2>
+
+                <p>Please fill out this form and I'll connect with you soon.</p>
+
+                <form class="upper" action="/forminfo.txt" method="post">
+                    <label for="name">name</label><br>
+                    <input type="text" id="name" name="name" value="your full name" class="upper"><br>
+                    <label for="email">email</label><br>
+                    <input type="email" name="email" id="email" value="enter your email address" class="upper"><br>
+                    <label for="message">message</label><br>
+                    <input type="text" name="message" id="message" value="what can i help you with?" class="upper"><br>
+                    <input type="submit" value="submit" class="upper">
+                </form>
+
+
+            </section>
+        </main>
+
+        <footer class="upper">
+            <small>Copyright 2021 TK Photography</small>
+        </footer>
+
+    </div>
+</body>
+</html>
